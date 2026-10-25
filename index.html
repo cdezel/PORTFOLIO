@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hanzel Guevarra | Aspiring Software Engineer Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Hanzel Guevarra - Aspiring Software Engineer, BSIT student at PUP, specializing in Programming, Database Management, and Network Design.">
+  <meta name="author" content="Hanzel Guevarra">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =============================================
+       HEADER & NAVIGATION BAR
+       =============================================== -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Hanzel Guevarra Home">
+        <span class="logo-badge">HG</span>
+        <span class="logo-text">Hanzel<strong>Guevarra</strong></span>
+      </a>
+
+      <!-- Mobile Navigation Hamburger Button -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">About</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Volunteer</a></li>
+          <li class="nav-item"><a href="#organizations" class="nav-link">Organizations</a></li>
+          <li class="nav-item"><a href="#awards" class="nav-link">Awards</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-btn">Connect</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==============================================
+         HERO & PROFILE SECTION
+         ================================================== -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Available for Internships &amp; Roles</span>
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight-text">Hanzel Guevarra</span>
+          </h1>
+          <h2 class="hero-subtitle">Aspiring Software Engineer</h2>
+          <p class="hero-description">
+            An aspiring student software engineer with strong foundations in programming, database management, and
+            networking, backed by a reliable team-oriented skill set gained from working with tech organizations and
+            student events.
+          </p>
+
+          <div class="hero-meta-list">
+            <div class="meta-item">
+              <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+                <circle cx="12" cy="9" r="2.5" />
+              </svg>
+              <span>Sta. Mesa, Manila, PH</span>
+            </div>
+            <div class="meta-item">
+              <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+              </svg>
+              <span>Polytechnic University of the Philippines</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Academic Projects</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+
+        <!-- HERO / PROFILE PHOTO -->
+        <div class="hero-photo-container">
+          <div class="photo-frame hero-frame" id="heroPhotoSlot">
+            <img class="slot-image"
+              src="PROFILE.jpg"
+              alt="Hanzel Guevarra - Aspiring Software Engineer"
+              data-caption="Hanzel Guevarra - Aspiring Software Engineer, BSIT student at PUP"
+              loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================
+         ACADEMIC PROJECTS SECTION
+         ============================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Portfolio Showcase</p>
+          <h2 class="section-title">Academic Projects</h2>
+          <p class="section-subtitle">Key software, prototype, and networking systems engineered during academic
+            coursework.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Tippy -->
+          <article class="project-card">
+            <!-- PHOTO: TIPPY -->
+            <div class="photo-frame project-photo-slot">
+              <img class="slot-image"
+                src="TIPPY.png"
+                alt="Budgeting App Prototype Tippy UI Preview"
+                data-caption="Tippy - Food Budgeting &amp; Nutrition Management App UI Prototype (Figma)"
+                loading="lazy">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-badge">Prototype</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Budgeting App Prototype | Tippy</h3>
+              <ul class="project-bullets">
+                <li>Developed a standard, intuitive mobile app prototype using <strong>Figma</strong>.</li>
+                <li>Engineered as a tailored food budgeting system designed specifically for users with restricted
+                  budgets.</li>
+                <li>Integrated smart supplemental features including personalized <strong>Nutrition Management</strong>
+                  for balanced dietary planning.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Figma</span>
+                <span class="tech-tag">UI/UX Design</span>
+                <span class="tech-tag">Food Budgeting</span>
+                <span class="tech-tag">Nutrition Planning</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: LaMesa -->
+          <article class="project-card">
+            <!-- PHOTO: LAMESA -->
+            <div class="photo-frame project-photo-slot">
+              <img class="slot-image"
+                src="LAMESA.png"
+                alt="Restaurant Reservation System LaMesa Preview"
+                data-caption="LaMesa - Desktop Restaurant Reservation &amp; Table Management System (Java &amp; MySQL)"
+                loading="lazy">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-badge">Reservation System</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Restaurant Reservation System | LaMesa</h3>
+              <ul class="project-bullets">
+                <li>Engineered a robust, Java-based <strong>Object-Oriented Programming (OOP)</strong> architecture.
+                </li>
+                <li>Fully integrated with a relational SQL database for live seating availability and reservation
+                  records.</li>
+                <li>Designed specifically for restaurant management workflows requiring seamless booking and customer
+                  tracking.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">OOP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Database Integration</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Aetheria Hospitality Group -->
+          <article class="project-card">
+            <!-- PHOTO: AETHERIA -->
+            <div class="photo-frame project-photo-slot">
+              <img class="slot-image"
+                src="ENTERPRISENETWORK.png"
+                alt="Enterprise Network Infrastructure Topology"
+                data-caption="Aetheria Hospitality Group - Hierarchical Enterprise Network Architecture (Cisco Packet Tracer)"
+                loading="lazy">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-badge">Network Design</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Enterprise Network Infrastructure | Aetheria Hospitality Group</h3>
+              <ul class="project-bullets">
+                <li>Designed and documented a scalable, secure, and robust hierarchical enterprise network topology.
+                </li>
+                <li>Simulated and validated routing protocols, VLANs, and security boundaries using <strong>Cisco Packet
+                    Tracer</strong>.</li>
+                <li>Built to support high-availability hospitality operations with enterprise-grade network
+                  segmentation.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Cisco Packet Tracer</span>
+                <span class="tech-tag">Network Architecture</span>
+                <span class="tech-tag">VLAN &amp; Routing</span>
+                <span class="tech-tag">Enterprise Security</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================================
+         EDUCATION SECTION
+         ============================================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Academic Background</p>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">Formal foundation in Information Technology and computer science principles.</p>
+        </div>
+
+        <div class="education-card">
+          <div class="education-info">
+            <div class="edu-badge">2024 &mdash; Present</div>
+            <h3 class="edu-institution">Polytechnic University of the Philippines</h3>
+            <h4 class="edu-degree">Bachelor of Science in Information Technology (BSIT)</h4>
+            <p class="edu-desc">
+              Currently pursuing a comprehensive undergraduate curriculum focused on software engineering, data
+              structures and algorithms, relational database systems, computer networking, and system architecture.
+            </p>
+            <div class="edu-highlights">
+              <div class="highlight-chip">
+                <span class="chip-label">Focus Area</span>
+                <span class="chip-val">Software Engineering &amp; Networks</span>
+              </div>
+              <div class="highlight-chip">
+                <span class="chip-label">Campus</span>
+                <span class="chip-val">Sta. Mesa, Manila</span>
+              </div>
+              <div class="highlight-chip">
+                <span class="chip-label">Status</span>
+                <span class="chip-val">Active Undergraduate Student</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PHOTO: EDUCATION / PUP SEAL -->
+          <div class="photo-frame education-photo-slot">
+            <img class="slot-image education-logo-img"
+              src="EDUCATION.svg"
+              alt="Polytechnic University of the Philippines Official Seal"
+              data-caption="Polytechnic University of the Philippines (PUP Sta. Mesa) - BS in Information Technology"
+              loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         TECHNICAL SKILLS SECTION 
+         =========================================-->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Competencies</p>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">Core proficiencies spanning programming languages, networking infrastructure, and
+            database analytics.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Programming -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+              </div>
+              <h3 class="skill-group-title">Programming</h3>
+            </div>
+            <p class="skill-group-desc">Core languages applied in systems programming, object-oriented software, and
+              interactive web interfaces.</p>
+            <div class="skill-items">
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">C Language</span>
+                <span class="skill-level">Procedural &amp; Logic</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">Java</span>
+                <span class="skill-level">OOP &amp; Systems</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-level">Web &amp; Interactivity</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Networking -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+                  <line x1="6" y1="6" x2="6.01" y2="6" />
+                  <line x1="6" y1="18" x2="6.01" y2="18" />
+                </svg>
+              </div>
+              <h3 class="skill-group-title">Networking</h3>
+            </div>
+            <p class="skill-group-desc">Network architecture, infrastructure simulation, routing topologies, and
+              localized hardware configuration.</p>
+            <div class="skill-items">
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">Cisco Packet Tracer</span>
+                <span class="skill-level">Network Topology Simulation</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">Basic LAN Configuration</span>
+                <span class="skill-level">Subnetting &amp; Local Setup</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Database and Analytics -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3" />
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                </svg>
+              </div>
+              <h3 class="skill-group-title">Database &amp; Analytics</h3>
+            </div>
+            <p class="skill-group-desc">Relational data models, structured queries, statistical computation, and
+              computational data exploration.</p>
+            <div class="skill-items">
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">MySQL</span>
+                <span class="skill-level">Relational Database Queries</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">R Data Analysis</span>
+                <span class="skill-level">Statistical Computation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         VOLUNTEER EXPERIENCE SECTION
+         ================================================ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Leadership &amp; Service</p>
+          <h2 class="section-title">Volunteer Experience</h2>
+          <p class="section-subtitle">Hands-on technical production, audio/visual setups, and event logistics support
+            for premier university hackathons and events.</p>
+        </div>
+
+        <div class="volunteer-grid">
+          <!-- Volunteer 1: PUP AFK 2026 -->
+          <article class="volunteer-card">
+            <div class="volunteer-header">
+              <div>
+                <span class="volunteer-role">Technicals Committee Member</span>
+                <h3 class="volunteer-event">PUP AFK 2026</h3>
+                <span class="volunteer-org">CCIS Student Council</span>
+              </div>
+              <span class="volunteer-year">2026</span>
+            </div>
+            <ul class="volunteer-bullets">
+              <li>Volunteered for a high-intensity 3-day student-hosted event organized by the CCIS Student Council.
+              </li>
+              <li>Executed on-site technical setup and real-time live operations, guaranteeing high-quality audio and
+                visual presentation throughout the program.</li>
+            </ul>
+
+            <!-- PHOTO: PUP AFK -->
+            <div class="photo-frame volunteer-photo-slot">
+              <img class="slot-image"
+                src="AFK.jpg"
+                alt="PUP AFK 2026 Technicals Committee Team on Stage"
+                data-caption="PUP AFK 2026 - CCIS Student Council Technicals Committee on Stage"
+                loading="lazy">
+            </div>
+          </article>
+
+          <!-- Volunteer 2: AWS Kiro and Quick -->
+          <article class="volunteer-card">
+            <div class="volunteer-header">
+              <div>
+                <span class="volunteer-role">Technicals Committee Member</span>
+                <h3 class="volunteer-event">AWS Kiro and Quick: Build Over Nights 2026</h3>
+                <span class="volunteer-org">AWS PUP</span>
+              </div>
+              <span class="volunteer-year">2026</span>
+            </div>
+            <ul class="volunteer-bullets">
+              <li>Volunteered for a major hackathon event hosted by AWS PUP as an active organizer and technical team
+                member.</li>
+              <li>Maintained smooth, resilient technical infrastructure and uninterrupted streaming setup for both the
+                overnight coding event and main ceremonies.</li>
+            </ul>
+
+            <!-- PHOTO: AWS HACKATHON -->
+            <div class="photo-frame volunteer-photo-slot">
+              <img class="slot-image"
+                src="AWSKIRO.JPG"
+                alt="AWS Kiro and Quick Build Over Nights 2026 Hackathon Attendees &amp; Ceremony"
+                data-caption="AWS Kiro and Quick: Build Over Nights 2026 - Hackathon Technical Infrastructure &amp; Live Operations"
+                loading="lazy">
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         STUDENT ORGANIZATIONS SECTION
+         =================================================-->
+    <section class="section" id="organizations">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Involvement</p>
+          <h2 class="section-title">Student Organizations</h2>
+          <p class="section-subtitle">Active memberships driving operations, peer learning, and tech community
+            engagement.</p>
+        </div>
+
+        <div class="orgs-grid">
+          <!-- Org 1: Cisco NetConnect PUP -->
+          <div class="org-card">
+            <div class="org-content">
+              <span class="org-timeline">2026 &mdash; Present</span>
+              <h3 class="org-name">Cisco NetConnect PUP</h3>
+              <p class="org-role">Operations &mdash; Technical Member</p>
+              <p class="org-desc">
+                Collaborating on university-wide networking initiatives, hands-on workshops, and community events
+                centered on modern telecommunications and internetworking technologies.
+              </p>
+            </div>
+          </div>
+
+          <!-- Org 2: Microsoft Campus Club PUP -->
+          <div class="org-card">
+            <div class="org-content">
+              <span class="org-timeline">2026 &mdash; Present</span>
+              <h3 class="org-name">Microsoft Campus Club PUP</h3>
+              <p class="org-role">Operations &mdash; Technical Member</p>
+              <p class="org-desc">
+                Supporting technical execution, logistical workflows, and student skill-building sessions featuring
+                software development and cloud technologies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         AWARDS & HONORS SECTION
+         ============================================== -->
+    <section class="section" id="awards">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Recognition</p>
+          <h2 class="section-title">Awards &amp; Competitions</h2>
+          <p class="section-subtitle">Accolades won through system design thinking and technical innovation.</p>
+        </div>
+
+        <div class="award-showcase-card">
+          <div class="award-info">
+            <div class="award-medal-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="6" />
+                <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
+              </svg>
+              <span>3rd Place Award</span>
+            </div>
+            <h3 class="award-title">MSC SolArch Showdown</h3>
+            <p class="award-subtitle">System Design Ideathon (2025)</p>
+            <p class="award-desc">
+              Awarded 3rd place in a highly competitive system architecture competition, ideating an innovative,
+              scalable, and resilient software infrastructure tailored to complex domain requirements.
+            </p>
+          </div>
+
+          <!-- PHOTO: AWARD / MSC SOLARCH SHOWDOWN -->
+          <div class="photo-frame award-photo-slot">
+            <img class="slot-image"
+              src="SOLARCH.jpg"
+              alt="MSC SolArch Showdown 3rd Place Award"
+              data-caption="MSC SolArch Showdown - 3rd Place System Architecture Award (Microsoft Student Community PUP)"
+              loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         ADDITIONAL SECTION: PHOTO GALLERY
+         ============================================== -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Visual Highlights</p>
+          <h2 class="section-title">Photo Gallery</h2>
+          <p class="section-subtitle">A collection of moments from university projects, hackathons, team operations, and
+            tech events. Click any photo slot to view larger.</p>
+        </div>
+
+        <!-- Basic Vanilla JS Gallery Filter -->
+        <div class="gallery-filters" id="galleryFilters">
+          <button class="filter-btn active" data-filter="all">All Photos</button>
+          <button class="filter-btn" data-filter="events">Events &amp; Hackathons</button>
+          <button class="filter-btn" data-filter="projects">Projects &amp; Work</button>
+          <button class="filter-btn" data-filter="campus">Campus &amp; Team</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+
+          <!-- Gallery Item 1 -->
+          <div class="gallery-item" data-category="events">
+            <div class="photo-frame gallery-frame">
+              <img class="slot-image gallery-img"
+                src="AWSKIRO.JPG"
+                alt="AWS Hackathon Overnight Setup and Attendees"
+                data-caption="AWS Kiro and Quick: Build Over Nights 2026 - Hackathon Infrastructure &amp; Ceremonies"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category-badge">Events</span>
+                <p class="gallery-item-title">AWS Build Over Nights</p>
+                <span class="gallery-hint">Click to enlarge</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 2 -->
+          <div class="gallery-item" data-category="events">
+            <div class="photo-frame gallery-frame">
+              <img class="slot-image gallery-img"
+                src="AFK.jpg"
+                alt="PUP AFK 2026 Technicals Committee Stage Production"
+                data-caption="PUP AFK 2026 - 3-Day Technical Operations &amp; Stage Production"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category-badge">Events</span>
+                <p class="gallery-item-title">PUP AFK Technical Operations</p>
+                <span class="gallery-hint">Click to enlarge</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 3 -->
+          <div class="gallery-item" data-category="projects">
+            <div class="photo-frame gallery-frame">
+              <img class="slot-image gallery-img"
+                src="TIPPY.png"
+                alt="Tippy App UI Wireframes &amp; Flow"
+                data-caption="Tippy - UI Wireframing, Nutrition Tracker Flow, and Budgeting Interface (Figma)"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category-badge">Projects</span>
+                <p class="gallery-item-title">Tippy Wireframes &amp; Flow</p>
+                <span class="gallery-hint">Click to enlarge</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 4 -->
+          <div class="gallery-item" data-category="projects">
+            <div class="photo-frame gallery-frame">
+              <img class="slot-image gallery-img"
+                src="ENTERPRISENETWORK.png"
+                alt="Cisco Packet Tracer Architecture Topology"
+                data-caption="Aetheria Hospitality Group - Packet Tracer Hierarchical Enterprise Network Architecture"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category-badge">Projects</span>
+                <p class="gallery-item-title">Enterprise Network Architecture</p>
+                <span class="gallery-hint">Click to enlarge</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 5 -->
+          <div class="gallery-item" data-category="projects">
+            <div class="photo-frame gallery-frame">
+              <img class="slot-image gallery-img"
+                src="LAMESA.png"
+                alt="LaMesa Restaurant Reservation System UI"
+                data-caption="LaMesa - Desktop Restaurant Reservation &amp; Table Availability Management System (Java &amp; MySQL)"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category-badge">Projects</span>
+                <p class="gallery-item-title">LaMesa Reservation System</p>
+                <span class="gallery-hint">Click to enlarge</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 6 -->
+          <div class="gallery-item" data-category="projects">
+            <div class="photo-frame gallery-frame">
+              <img class="slot-image gallery-img"
+                src="SOLARCH.jpg"
+                alt="MSC SolArch Showdown 3rd Place Award"
+                data-caption="MSC SolArch Showdown - 3rd Place System Architecture Award (Microsoft Student Community PUP)"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category-badge">Projects</span>
+                <p class="gallery-item-title">MSC SolArch 3rd Place Award</p>
+                <span class="gallery-hint">Click to enlarge</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 7 -->
+          <div class="gallery-item" data-category="campus">
+            <div class="photo-frame gallery-frame">
+              <img class="slot-image gallery-img"
+                src="PHOTOGAL1.jpg"
+                alt="Event Workstation and Technicals Operations Team"
+                data-caption="Technical Operations Team - Event Workstation Setup &amp; Real-time Operations"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category-badge">Campus</span>
+                <p class="gallery-item-title">Technical Operations Team</p>
+                <span class="gallery-hint">Click to enlarge</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 8-->
+          <div class="gallery-item" data-category="events">
+            <div class="photo-frame gallery-frame">
+              <img class="slot-image gallery-img"
+                src="PHOTOGAL2.jpg"
+                alt="Overnight Hackathon Development Room Sprint"
+                data-caption="AWS Build Over Nights Hackathon - 11 Hours Remaining Overnight Coding &amp; Development Room"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category-badge">Events</span>
+                <p class="gallery-item-title">Overnight Hackathon Sprint</p>
+                <span class="gallery-hint">Click to enlarge</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 9 -->
+          <div class="gallery-item" data-category="campus">
+            <div class="photo-frame gallery-frame">
+              <img class="slot-image gallery-img"
+                src="PHOTOGAL3.jpg"
+                alt="PUP CCIS Tech Community and Student Meetup"
+                data-caption="Polytechnic University of the Philippines CCIS - Tech Workshop &amp; Peer Learning Community"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category-badge">Campus</span>
+                <p class="gallery-item-title">CCIS Peer Community</p>
+                <span class="gallery-hint">Click to enlarge</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 10 -->
+          <div class="gallery-item" data-category="events">
+            <div class="photo-frame gallery-frame">
+              <img class="slot-image gallery-img"
+                src="PHOTOGAL4.JPG"
+                alt="Live Event AV Control Booth and Audio Setup"
+                data-caption="Live Event AV Control Booth - Audio Console, Broadcast Hardware &amp; Production Management"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category-badge">Events</span>
+                <p class="gallery-item-title">Stage &amp; AV Production Booth</p>
+                <span class="gallery-hint">Click to enlarge</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 11 (Extra: PHOTOGAL5) -->
+          <div class="gallery-item" data-category="events">
+            <div class="photo-frame gallery-frame">
+              <img class="slot-image gallery-img"
+                src="PHOTOGAL5.JPG"
+                alt="BON Hackathon Organizers and Participants"
+                data-caption="BON Build Over Nights: Kiro x Quick Hackathon - Group Photo with Organizers and Hackers"
+                loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category-badge">Events</span>
+                <p class="gallery-item-title">BON Hackathon Participants</p>
+                <span class="gallery-hint">Click to enlarge</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         CONNECT WITH ME SECTION 
+         ============================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Reach Out</p>
+          <h2 class="section-title">Connect With Me</h2>
+          <p class="section-subtitle">Interested in working together or discussing software opportunities? Feel free to
+            reach out via any channel below.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- left col: Contact Cards and Socials -->
+          <div class="contact-cards-wrap">
+
+            <!-- Email Card with Copy -->
+            <div class="contact-item-card">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">Email Address</span>
+                <a href="mailto:hanzelg.guevarra@gmail.com" class="contact-link"
+                  id="emailText">hanzelg.guevarra@gmail.com</a>
+              </div>
+              <button class="copy-btn" data-copy="hanzelg.guevarra@gmail.com" aria-label="Copy Email Address">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                </svg>
+                <span class="copy-tooltip">Copy</span>
+              </button>
+            </div>
+
+            <!-- Phone Card with Copy-->
+            <div class="contact-item-card">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">Mobile Phone</span>
+                <a href="tel:09618159325" class="contact-link" id="phoneText">09618159325</a>
+              </div>
+              <button class="copy-btn" data-copy="09618159325" aria-label="Copy Phone Number">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                </svg>
+                <span class="copy-tooltip">Copy</span>
+              </button>
+            </div>
+
+            <!-- Social Links Grid -->
+            <div class="social-links-grid">
+              <!-- LinkedIn -->
+              <a href="https://linkedin.com/in/hanzel-guevarra-hggswe/" target="_blank" rel="noopener noreferrer"
+                class="social-btn">
+                <div class="social-btn-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                  </svg>
+                </div>
+                <div class="social-btn-info">
+                  <span class="social-name">LinkedIn</span>
+                  <span class="social-handle">hanzel-guevarra-hggswe</span>
+                </div>
+              </a>
+
+              <!-- GitHub -->
+              <a href="https://github.com/cdezel" target="_blank" rel="noopener noreferrer" class="social-btn">
+                <div class="social-btn-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+                  </svg>
+                </div>
+                <div class="social-btn-info">
+                  <span class="social-name">GitHub</span>
+                  <span class="social-handle">github.com/cdezel</span>
+                </div>
+              </a>
+
+              <!-- Facebook -->
+              <a href="https://facebook.com/han.gue1225/" target="_blank" rel="noopener noreferrer" class="social-btn">
+                <div class="social-btn-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95C18.05 21.45 22 17.2 22 12z" />
+                  </svg>
+                </div>
+                <div class="social-btn-info">
+                  <span class="social-name">Facebook</span>
+                  <span class="social-handle">han.gue1225</span>
+                </div>
+              </a>
+
+              <!-- Location Info -->
+              <div class="social-btn static-info">
+                <div class="social-btn-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <div class="social-btn-info">
+                  <span class="social-name">Location</span>
+                  <span class="social-handle">Sta. Mesa, Manila, PH</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Quick Message Form -->
+          <div class="contact-form-container">
+            <h3 class="form-title">Send a Quick Message</h3>
+            <p class="form-desc">Leave a note, project inquiry, or invitation to connect.</p>
+
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="userName">Your Name</label>
+                <input type="text" id="userName" name="name" placeholder="Juan Dela Cruz" required>
+                <span class="form-error" id="nameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="userEmail">Your Email</label>
+                <input type="email" id="userEmail" name="email" placeholder="juan@example.com" required>
+                <span class="form-error" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="userSubject">Subject</label>
+                <input type="text" id="userSubject" name="subject" placeholder="Internship Opportunity / Inquiry"
+                  required>
+                <span class="form-error" id="subjectError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="userMessage">Message</label>
+                <textarea id="userMessage" name="message" rows="4"
+                  placeholder="Hello Hanzel, I reviewed your portfolio and would like to connect..."
+                  required></textarea>
+                <span class="form-error" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn" id="submitBtn">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13" />
+                  <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                </svg>
+              </button>
+
+              <div class="form-status" id="formStatus" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===============================================
+       LIGHTBOX MODAL FOR GALLERY & PHOTO SLOTS
+       ============================================== -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox">&times;</button>
+      <div class="lightbox-media-container">
+        <img src="" alt="" id="lightboxImg" class="lightbox-img">
+      </div>
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <!-- ==============================================
+       FOOTER
+       ============================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="footer-copy">
+        &copy; <span id="currentYear"></span> <strong>Hanzel Guevarra</strong>.
+      </p>
+      <div class="footer-links">
+        <a href="#hero">Back to Top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
